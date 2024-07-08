@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 1440px;
+    display: flex;
+    background-color: hsl(233, 47%, 7%); 
+}
+
+#owner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+img {
+
+    width: 401px;
+    height: 351px; 
+    
+}
+
+.prblm 
+{
+    font-size: 27px; 
+    margin-left: 40px; 
+} 
+
+#red 
+{
+    font-size: 27px;
+    margin-left: 40px;
+}
+
+#sender {
+    display: block;
+    background-color: hsl(244, 38%, 16%); 
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 350px; 
+    border-radius: 5px 0px 0px 5px;
+}
+
+.one {
+    color: hsl(0, 0%, 100%);
+    display: inline;
+    font-family: "inter";
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align: center; 
+    padding: 80%;
+
+
+}
+
+.spi {
+    margin: 0 5px;
+    color: hsl(277, 64%, 61%);
+}
+
+.prblm2 {
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 300;
+
+}
+
+.ro {
+    margin: 0 40px;
+    font-size: 11px;
+    width: 280px;
+    height: 100px;
+    word-spacing: 3px;
+    line-height: 1.5; 
+    margin-bottom: 49px;
+}
+
+#numbers {
+    display: flex;      
+    font-size: small; 
+    margin-left: 20px; 
+    margin-bottom: -60px;
+}
+
+.a,
+.b,
+.c {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; 
+    
+}
+
+.j,
+.k,
+.l {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "inter";
+    font-weight: 700;
+} 
+
+#here
+{
+    color: hsla(0, 0%, 100%, 0.6); 
+    font-family: "inter";  
+    font-size: xx-small; 
+    margin: 4px 0; 
+    font-weight: 250;
+}
+
+.helloworld 
+{
+    position: fixed;
+    height: 350px;
+    width: 400px; 
+    color: black;
+    z-index: 5;
+}
